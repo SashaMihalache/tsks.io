@@ -12,14 +12,14 @@
     "inlineSources": false,
     "isolatedModules": true,
     "lib": ["ES2021", "DOM", "DOM.Iterable"],
-    "module": "ESNext",
+    "module": "esnext",
     "moduleResolution": "node",
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "preserveWatchOutput": true,
+    "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "typeRoots": ["node_modules/@types"]
-  },
-  "exclude": ["node_modules"]
+    "typeRoots": ["../../node_modules/@types"]
+  }
 }
