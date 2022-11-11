@@ -4,7 +4,7 @@ import { Button } from 'ui/Button'
 import { CoolInterface } from 'server/src/lib/CoolInterface'
 
 const coolKid: CoolInterface = {
-  amICool: false,
+  amICool: true,
 }
 
 const Home: NextPage = () => (

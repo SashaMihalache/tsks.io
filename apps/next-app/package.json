@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint src --fix"
+    "lint": "eslint src --fix",
+    "test": "echo \"Error: no test specified\""
   },
   "dependencies": {
     "next": "latest",
