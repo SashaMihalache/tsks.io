@@ -5,12 +5,11 @@
   "main": "./src/index.tsx",
   "types": "./src/index.tsx",
   "scripts": {
-    "lint": "eslint . --fix",
+    "lint": "eslint src --fix",
     "test": "jest --coverage"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
-    "tsconfig": "*",
     "typescript": "^4.5.2"
   }
 }

@@ -1,16 +1,13 @@
 {
-  "name": "config",
+  "name": "eslint-config-custom",
   "version": "1.0.0",
   "description": "",
-  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "files": [
     "eslint-next.js",
-    "eslint-server.js",
-    "jest-next.js",
-    "jest-server.js"
+    "eslint-server.js"
   ],
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.7.0",

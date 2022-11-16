@@ -7,7 +7,7 @@ const HelloWorld = () => {
 
   return (
     <>
-      <h1>Helllo {slug}</h1>
+      <h1 className="bg-primary">Helllo {slug}</h1>
       <label htmlFor="name">
         <input id="name" name="name" type="text" />
       </label>
