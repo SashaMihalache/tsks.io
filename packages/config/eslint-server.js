@@ -16,6 +16,9 @@ module.exports = {
   parserOptions: {
     project: ['./tsconfig.json'],
   },
+  rules: {
+    'import/prefer-default-export': 'off',
+  },
   settings: {
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts'],
