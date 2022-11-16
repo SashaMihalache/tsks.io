@@ -7,14 +7,14 @@
   "scripts": {
     "lint": "eslint . --fix"
   },
-  "dependencies": {
-    "@types/react": "^18.0.25"
-  },
   "files": [
     "eslint-next.js",
     "eslint-server.js",
     "jest-next.js"
   ],
+  "dependencies": {
+    "@types/react": "^18.0.25"
+  },
   "devDependencies": {
     "@types/react-dom": "^17.0.11",
     "eslint": "^7.32.0",
