@@ -1,6 +1,6 @@
 import React from 'react'
 import type { NextPage } from 'next'
-import { Button } from 'ui/Button'
+import { Button } from 'ui/src/Button'
 import { CoolInterface } from 'server/src/lib/CoolInterface'
 import HelloWorld from 'src/components/HelloWorld'
 
