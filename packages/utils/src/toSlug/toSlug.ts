@@ -10,7 +10,6 @@ export const toSlug = (str: string): string => {
   if (!s) {
     return ''
   }
-
   s = s.toLowerCase().trim()
   s = s.replace(/ & /g, ' and ')
   s = s.replace(/[ ]+/g, '-')
